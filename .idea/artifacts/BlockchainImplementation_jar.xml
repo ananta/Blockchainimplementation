@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BlockchainImplementation:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BlockchainImplementation_jar</output-path>
+    <root id="archive" name="BlockchainImplementation.jar">
+      <element id="module-output" name="BlockchainImplementation" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk15on/1.68/bcprov-jdk15on-1.68.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -58,7 +58,27 @@ public class Block {
         }
 
         transactions.add(transaction);
-        System.out.println("Transaction is valid & it's added to the block");
+        System.out.println("Transaction "+ transaction.getTransactionId() + " is valid & it's added to the block");
         return true;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Block{");
+        sb.append("hash='").append(hash).append('\'');
+        sb.append(", number=").append(number);
+        sb.append(", previousHash='").append(previousHash).append('\'');
+        sb.append(", transactions=[\n");
+        for (Transaction transaction : transactions) {
+            sb.append("TransactionID: ").append(transaction.getTransactionId());
+            sb.append(" Transaction Amount: ").append(transaction.getAmount());
+            sb.append(", \n");
+        }
+        sb.append("]\n");
+        sb.append(", timeStamp=").append(timeStamp);
+        sb.append(", nonce=").append(nonce);
+        sb.append('}');
+        return sb.toString();
     }
 }

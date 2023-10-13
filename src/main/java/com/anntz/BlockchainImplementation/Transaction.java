@@ -1,9 +1,7 @@
 package com.anntz.BlockchainImplementation;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 

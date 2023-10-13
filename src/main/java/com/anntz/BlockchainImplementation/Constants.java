@@ -6,7 +6,7 @@ public class Constants {
 
     // Just for our protocol, the amount of zeros to be a valid hash for the miners
     // For difficulty 10, the hash will be something like "0000000000e9182374987243abc978987dddd"
-    public static final int DIFFICULTY = 3;
+    public static final int DIFFICULTY = 4;
 
     // Reward, unlike bitcoin, which halves at certain interval, let's just add it as static
     public static final double REWARD = 12.5;

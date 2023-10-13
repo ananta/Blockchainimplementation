@@ -1,6 +1,5 @@
 package com.anntz.BlockchainImplementation;
 
-import java.security.DigestOutputStream;
 import java.security.KeyPair;
 import java.security.PrivateKey;
 import java.security.PublicKey;
